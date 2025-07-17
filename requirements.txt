@@ -19,3 +19,4 @@ yfinance==0.2.37
 opstrat
 scipy
 tabulate
+cufflinks
