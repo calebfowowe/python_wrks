@@ -63,7 +63,7 @@ class BS:
                 f"days_to_expiration(in_years):{self.dte}, volatility:{self.volatility} )")
     
         
-    # Option Price    
+    # Option Price
     @property
     def _price(self):
         """Returns the option price: [Call price, Put price]"""
