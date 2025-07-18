@@ -1,17 +1,9 @@
 ### Black Scholes Option Pricing Model
 
-import warnings
-warnings.filterwarnings('ignore')
-
 # Base libraries
 import pandas as pd
 import numpy as np
-import yfinance as yf
 from scipy.stats import norm
-from datetime import datetime, timedelta
-
-# Option Strategy plotting
-import opstrat as op
 
 # Set max row to 300
 pd.set_option('display.max_rows', 300)
@@ -125,7 +117,4 @@ class BS:
 
         return [call, put]
 
-    # Implied Vol
-    @property
-    def _IV(self):
-        pass
+
