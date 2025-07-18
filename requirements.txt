@@ -20,3 +20,5 @@ opstrat
 scipy
 tabulate
 cufflinks
+sympy
+sqlalchemy
